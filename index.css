@@ -1,0 +1,254 @@
+body {
+    width: 1440px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    background-color: #F1F1F1;
+}
+
+img {
+    max-height: 22px;
+    max-width: 18.68px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 80px;
+}
+
+.nav-search {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: min-content min-content;
+    padding: 10px 12px 10px 12px;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: min-content min-content min-content min-content;
+    justify-self: end;
+    column-gap: 8px;
+}
+
+.button {
+    border: none;
+    height: 38px;
+    padding: 10px 12px 10px 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #081E34;
+    font-size: 14px;
+    width: max-content;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.simple:hover {
+    background-color: rgba(8, 30, 52, 0.12);
+}
+
+.simple:focus {
+    background-color: #081E341F;
+}
+
+.simple:active {
+    background-color: rgba(8, 30, 52, 0.12);
+}
+
+.fancy {
+    border-radius: 100px;
+    background-color: #081E340D;
+    min-width: 102px;
+    cursor: pointer;
+}
+
+.fancy:hover {
+    background-color: rgba(8, 30, 52, 0.08);
+}
+
+.fancy:focus:active {
+    background-color: rgba(8, 30, 52, 0.12);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.content {
+    height: 2150px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.advertisement {
+    padding: 100px 80px 100px 80px;
+    height: 620px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 165px;
+}
+
+.first-block {
+    display: grid;
+    grid-template-rows: 268px 98px;
+    width: 495px;
+    row-gap: 48px;
+}
+
+.text-block {
+    display: grid;
+    grid-template-rows: 192px 44px;
+    row-gap: 32px;
+}
+
+.large-heading {
+    font-family: 'Kanit', sans-serif;
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.small-text {
+    margin-top: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.how-it-works-button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    size: 14px;
+    line-height: 18px;
+    align-self: center;
+    margin-top: 48px;
+    max-width: 144px;
+    max-height: 50px;
+    border-radius: 100px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    color: #FFFFFF;
+    background-color: #712FFF;
+    border: none;
+}
+
+.second-block {
+    width: 619px;
+    height: 420px;
+    border-radius: 32px;
+}
+
+.img-1 {
+    min-width: 619px;
+    min-height: 420px;
+    border-radius: 32px;
+}
+
+.how-it-works {
+    height: 562px;
+    padding: 100px, 80px, 100px, 80px;
+    display: grid;
+    grid-template-rows: 84px 186px;
+    row-gap: 86px;
+    background-color: #E1DEE7;
+}
+
+.heading {
+    display: grid;
+    justify-self: center;
+}
+
+.heading h4 {
+    margin-top: 70px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    align-self: center;
+    justify-self: center;
+}
+
+.heading h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 54px;
+    line-height: 56px;
+    align-self: center;
+    justify-self: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-item h1 {
+    font-family: 'Jaini', sans-serif;
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.list-item h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.list-item h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.get-started {
+    height: 422px;
+    padding: 100px 80px 100px 80px;
+}
+
+.get-started h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.get-started h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.search input {
+    background-image: url('assets/search2.png');
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 2px 13px;
+    height: 50px;
+    width: 619px;
+    border-radius: 12px;
+    border: none;
+}
+
+.search input:focus {
+    background-image: none;
+}
+
+.search button {
+    height: 50px;
+    width: 106px;
+    border-radius: 100px;
+    padding: 16px 24px 16px 24px;
+    background-color: #712FFF;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 32px;
+}
+
